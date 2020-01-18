@@ -6,7 +6,7 @@ public class Homework2 {
 		
 		//請設計一隻Java程式，計算1～1000的偶數和 (2+4+6+8+…+1000) 
 
-	     int i1 = 1;
+	     int i1 = 2;
 	     int i2 = 0;
 	     while( i1 <= 1000 ) {
 	    	 i2 += i1;
