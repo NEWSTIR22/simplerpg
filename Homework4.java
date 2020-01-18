@@ -15,19 +15,19 @@ public class Homework4 {
 		int i;
 		int j;
 		int avg =0;
-		int[] number3 = new int[9];
-		int[] number1 ={29, 100, 39, 41, 50, 8, 66, 77, 95};
+		int[] number3 = new int[8];
+		int[] number1 ={29, 100, 39, 41, 50, 8, 66, 77};
 		
 		
 		for(i = 0; i < number1.length; i++) {
 			avg += number1[i]; 
 			
-		}System.out.println("平均值" + avg / 9);
+		}System.out.println("平均值" + avg / 8);
 	
 		for(j = 0 ; j<number3.length ;j++) {
 			number1[j] +=0;
 			
-			if(number1[j] >= (avg / 9)){
+			if(number1[j] >= (avg / 8)){
 			
 			System.out.println(number1[j]);
 			}
