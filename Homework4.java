@@ -15,8 +15,8 @@ public class Homework4 {
 		int i;
 		int j;
 		int avg =0;
-		int[] number3 = new int[8];
-		int[] number1 ={29, 100, 39, 41, 50, 8, 66, 77};
+		int[] number3 = new int[];
+		int[] number1 ={29, 100, 39, 41, 50, 8, 66};
 		
 		
 		for(i = 0; i < number1.length; i++) {
