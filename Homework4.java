@@ -15,33 +15,25 @@ public class Homework4 {
 		int i;
 		int j;
 		int avg =0;
-<<<<<<< HEAD
+
 		int[] number3 = new int[10];
 		int[] number1 ={29, 100, 39, 41, 50, 8, 66, 77, 95, 15};
-=======
-		int[] number3 = new int[8];
-		int[] number1 ={29, 100, 39, 41, 50, 8, 66, 77};
->>>>>>> stir
-		
+
 		
 		for(i = 0; i < number1.length; i++) {
 			avg += number1[i]; 
 			
-<<<<<<< HEAD
+
 		}System.out.println("平均值" + avg / 10);
-=======
-		}System.out.println("平均值" + avg / 8);
->>>>>>> stir
+
 	
 		for(j = 0 ; j<number3.length ;j++) {
 			number1[j] +=0;
 			
-<<<<<<< HEAD
+
 			if(number1[j] >= (avg / 10)){
-=======
-			if(number1[j] >= (avg / 8)){
->>>>>>> stir
-			
+
+		
 			System.out.println(number1[j]);
 			}
 			else {}
